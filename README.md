@@ -2,7 +2,7 @@
 <h3 align="center">A passionate learner & aspiring developer</h3>
 
 - 🌱 I’m currently learning **Java, HTML, CSS, and web design**
-- 👨‍💻 All of my projects are available at [my GitHub]((https://github.com/nandhini-jm))
+- 👨‍💻 All of my projects are available at (https://github.com/nandhini-jm)
   
 - 💬 Ask me about **python, Java, or programming basics**
 - 📫 How to reach me: (nandhiniujcse@gmail.com)  
@@ -23,8 +23,9 @@
 
 ### 📫 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/nandhini-udhayakumar-58b2a730a)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nandhiniujcse@gmail.com)
+)
 
 ---
 
