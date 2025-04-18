@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm [Your Name]</h1>
+<h1 align="center">Hi 👋, I'm [Nandhini Udhayakumar]</h1>
 <h3 align="center">A passionate learner & aspiring developer</h3>
 
 - 🌱 I’m currently learning **Java, HTML, CSS, and web design**
