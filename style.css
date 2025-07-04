@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #3c5077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 520px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s ease;
+}
+
+.wrapper.active {
+  height: 600px;
+}
+
+.form-box {
+  position: absolute;
+  width: 100%;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+.form-box.login {
+  left: 0;
+}
+
+.wrapper.active .form-box.login {
+  left: -100%;
+}
+
+.form-box.register {
+  left: 100%;
+}
+
+.wrapper.active .form-box.register {
+  left: 0;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  color: #333;
+}
+
+.input-box label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #333;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+  color: #3c5077;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #3c5077;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-register {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-register a {
+  color: #3c5077;
+  text-decoration: none;
+  font-weight: bold;
+}
